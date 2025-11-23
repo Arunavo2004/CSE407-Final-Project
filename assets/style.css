@@ -1,0 +1,51 @@
+
+/* Global layout tweaks for a dark, dashboard-style UI */
+body {
+    background: radial-gradient(circle at top, #020617 0, #020617 40%, #000 100%);
+    color: #e5e7eb;
+}
+
+[data-testid="stSidebar"] {
+    background: #020617;
+}
+
+.metric-card {
+    background: linear-gradient(135deg, #0f172a, #020617);
+    border-radius: 18px;
+    padding: 16px 20px;
+    color: #e5e7eb;
+    border: 1px solid rgba(148,163,184,0.35);
+    box-shadow: 0 18px 40px rgba(15,23,42,0.55);
+}
+
+.metric-label {
+    font-size: 0.82rem;
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
+    color: #9ca3af;
+    margin-bottom: 4px;
+}
+
+.metric-value {
+    font-size: 1.7rem;
+    font-weight: 700;
+    color: #f9fafb;
+}
+
+.metric-sub {
+    font-size: 0.78rem;
+    color: #9ca3af;
+    margin-top: 4px;
+}
+
+.section-title {
+    font-size: 1.1rem;
+    font-weight: 600;
+    margin-bottom: 0.3rem;
+}
+
+.small-caption {
+    font-size: 0.8rem;
+    color: #9ca3af;
+    margin-bottom: 0.6rem;
+}
